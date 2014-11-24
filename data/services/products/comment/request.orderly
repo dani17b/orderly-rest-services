@@ -1,0 +1,6 @@
+object {
+  object {
+    integer productId;
+    string comment;
+  } messageComment;
+}*;

@@ -1,0 +1,28 @@
+{
+  "name": "restMock",
+  "description": "Json service rest mocker",
+  "version": "1.0.0",
+  "author": "Daniel Turiño <danido@corunet.com>",
+  "company": "CORUNET SL",
+  "contributors": [
+    {
+      "name": "David Pardo",
+      "email": "dpardo@corunet.com"
+    }
+  ],
+  "private": false,
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "jsonschema": "*",
+    "orderly": "*"
+  },
+  "keywords": [
+    "json",
+    "mock",
+    "orderly",
+    "service",
+    "server",
+    "post"
+  ]
+}
