@@ -1,1 +1,0 @@
-http://danido.labs.dev:8111/common/notifications/registerDevice
