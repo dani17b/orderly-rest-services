@@ -2,7 +2,8 @@ var express = require('express')
 	,http 	= require('http')
 	,bodyParser = require('body-parser')
 	,validator = require('jsonschema').Validator
-	,tools = require('./loadTools');
+	,tools = require('./loadTools')
+	,cors = require('cors');
 
 var app = express();
 
@@ -35,7 +36,7 @@ var validate = function(schema, data){
 // ------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------
-
+app.use(cors());
 app.use(bodyParser.json());
 
 app.use(tools.getServicesPaths(), function(req, res){

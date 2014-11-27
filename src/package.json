@@ -15,7 +15,8 @@
     "express": "*",
     "body-parser": "*",
     "jsonschema": "*",
-    "orderly": "*"
+    "orderly": "*",
+    "cors": "*"
   },
   "keywords": [
     "json",
